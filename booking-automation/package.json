@@ -1,0 +1,13 @@
+{
+  "name": "booking-selenium-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --timeout 60000 --exit"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0",
+    "mocha": "^11.0.1",
+    "chai": "^5.1.2"
+  }
+}
